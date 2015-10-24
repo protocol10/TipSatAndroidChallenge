@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="color_primary_text_color">#2C3742</color>
+    <color name="color_primary_text_color_notification">#FF2C3742</color>
+    <color name="color_action_bar_background">#2B3A48</color>
+    <color name="color_action_bar_title">#FFFFFF</color>
+    <color name="color_action_bar_subtitle">#6E89A3</color>
+    <color name="color_progress_bar">#009184</color>
+    <color name="trial_expired">#2D73A9</color>
+    <color name="trial_selector">#6C9DC2</color>
+    <color name="color_nav_drawer_version_text">#A5A5A5</color>
+    <!-- MarketScreen -->
+    <color name="color_view_pager_background">#2C3742</color>
+    <color name="color_index_value_text">#FF5858</color>
+    <color name="color_home_screen_date_time_text">#AAC2DE</color>
+    <color name="color_negative_percentage_change_text">#FF5858</color>
+    <color name="color_positive_percentage_change_text">#0F9268</color>
+    <color name="color_market_options_text">#B9DDFF</color>
+    <color name="color_last_updated_color">#6E89A3</color>
+    <color name="color_dashboard_items_background">#354554</color>
+    <color name="color_dashboard_positive_value">#4AE74C</color>
+    <color name="color_dashboard_negative_value">#F15555</color>
+    <color name="highlight_color">#F2F2F2</color>
+    <color name="expanded_color_webview">#D8DDDE</color>
+    <!-- Indices -->
+    <color name="color_indices_date_time_text">#9E9E9E</color>
+    <color name="color_indices_positive_per_change">#00B47A</color>
+    <color name="color_indices_negative_per_change">#E0171F</color>
+
+    <!-- Ideas -->
+    <color name="color_buy_background">#00B47A</color>
+    <color name="color_sell_background">#E0171F</color>
+    <color name="color_nse_bse_details">#70808E</color>
+
+    <!-- News -->
+    <color name="color_time_background">#A4A4A4</color>
+    <color name="color_market_mover_categories_header">#19BAE5</color>
+
+    <!-- Search -->
+    <color name="color_full_symbol_name">#646C73</color>
+
+    <!-- Bar Chart -->
+    <color name="color_bar_chart_background">#2C3742</color>
+    <color name="color_bar_chart_marker_view">#B2E3FA</color>
+    <color name="color_bar_chart_grid">#456685</color>
+    <color name="color_bar_chart_grid_light">#e5e5e5</color>
+
+    <color name="color_bar1">#FFCC00</color>
+    <color name="color_bar2">#FF9500</color>
+    <color name="color_bar3">#FF5D7C</color>
+    <color name="color_bar4">#FF3B30</color>
+    <color name="color_bar5">#A28BFF</color>
+    <color name="color_bar6">#5BC9FB</color>
+    <color name="color_bar7">#007BFF</color>
+
+    <!-- Line Chart -->
+    <color name="color_line_chart_marker_view">#FF786B</color>
+    <color name="color_cross_hair_color">#FF786B</color>
+    <color name="color_line_chart">#13A6CD</color>
+
+    <!-- Company Details -->
+    <color name="color_company_details_tab_indicator">#2B3A48</color>
+    <color name="color_company_details_tab_text">#2B3A48</color>
+    <color name="color_nse_bse_thumb">#FF9E00</color>
+    <color name="color_market_depth_header">#2D73A9</color>
+    <color name="color_total_qty_color">#FF786B</color>
+    <color name="color_even_row">#F5F5F5</color>
+    <color name="color_best5_divider">#E2E2E2</color>
+    <color name="color_chart_tab_values_grid_divider">#E2E2E2</color>
+    <color name="color_expiry_company_detail">#65819B</color>
+    <color name="color_exch_exch_type_tag_background">#34475A</color>
+    <color name="color_exch_exch_type_tag_text">#65819B</color>
+    <color name="color_buy_detail">#00E39A</color>
+    <color name="color_sell_detail">#FF7F7F</color>
+    <color name="color_watchlist_detail">#19BAE5</color>
+    <color name="color_watchlist_auto_update">#B9D8FA</color>
+    <color name="filter_disabled_light">#CFCFCF</color>
+    <color name="strike_price_selected">#8BA3B9</color>
+    <!-- Account -->
+    <color name="color_date_header_background">#495A69</color>
+
+    <!-- Chart -->
+    <color name="color_grid_background">#CCCCCC</color>
+    <color name="color_grid_item">#F8F8F8</color>
+    <color name="color_chart_line_color">#19BAE5</color>
+    <color name="color_radio_button_checked_background">#2C3742</color>
+
+    <!-- Search -->
+    <color name="color_spinner_header">#C1C1C1</color>
+    <color name="color_drop_down_background">#415569</color>
+    <color name="color_best_bid">#83939F</color>
+    <color name="color_buy">#00B47A</color>
+    <color name="color_sell">#FF5858</color>
+    <color name="color_watchlist">#00B0DF</color>
+    <color name="color_expandable_background">#F4F4F4</color>
+    <color name="color_expiry_date">#70808E</color>
+    <color name="divider_line">#CECECE</color>
+    <color name="buy_button_color">#00B47A</color>
+    <color name="sell_button_color">#FF555D</color>
+
+    <!-- Order Book -->
+    <color name="color_status_background">#636363</color>
+    <color name="color_quantity_background">#F1F1F1</color>
+    <color name="color_cancel_disabled">#3B4D5D</color>
+
+    <!-- Login -->
+    <color name="color_login_screen_background">#2C3742</color>
+    <color name="color_detail">#FFA800</color>
+    <color name="color_guest_background">#394A5A</color>
+    <color name="color_guest_button">#859BAF</color>
+    <color name="color_list_background">#2E3D4B</color>
+    <color name="color_list_divider">#364655</color>
+
+    <!-- MarketMovers -->
+    <color name="color_market_movers_details_header">#70808E</color>
+    <color name="color_market_movers_company_name">#9E9E9E</color>
+
+    <!-- Send Feedback -->
+    <color name="color_edittext_lable">#70808E</color>
+    <color name="color_edittext_hint">#B7B7B7</color>
+
+
+    <!-- Message Board -->
+    <color name="color_message_board_vertical_line">#5097D5</color>
+    <color name="color_add_comment_text">#65819B</color>
+
+    <color name="rippelColor">#929292</color>
+    <color name="error_color">#54ACD6</color>
+
+    <!-- Funds Transfer -->
+    <color name="color_fund_transfer_background">#F9F9F9</color>
+    <color name="color_fund_transfer_values">#E95258</color>
+    <color name="color_fund_transfer_divider">#CFCFCF</color>
+    <color name="color_adjusted_ledger_balance">#70808E</color>
+    <color name="color_select_bank">#ABAFB3</color>
+    <color name="color_pay_in_time">#798896</color>
+    <!-- OFS OrderBook-->
+    <color name="color_red">#FF7177</color>
+    <color name="color_blue">#19BAED</color>
+    <color name="color_button_blue">#8BA3B6</color>
+    <color name="color_ofs_date">#84939F</color>
+    <color name="color_pending_status">#4073A9</color>
+
+    <color name="color_exchange_background">#909FAC</color>
+    <color name="color_light_grey">#D8D8D8</color>
+    <color name="color_selected_watchlist_row">#F2F2F2</color>
+
+    <!-- DrawerLayout-->
+    <color name="color_light_blue">#B9D8FA</color>
+
+
+    <!--IIFL Widget-->
+    <color name="color_widget_header">#1E2832</color>
+    <color name="color_widget_coloumn">#B9DDFF</color>
+    <color name="color_widget_row">#2B3A48</color>
+    <color name="reload_unpress">#4DB6E3</color>
+    <color name="reload_press">#3D91B5</color>
+
+    <!-- Filter -->
+    <color name="color_filter_all">#2B3A48</color>
+    <color name="color_filter_ideas">#3A9523</color>
+    <color name="color_filter_news">#6B59D7</color>
+    <color name="color_filter_price_alert">#BF3735</color>
+    <color name="color_filter_trade_order">#35A8E7</color>
+    <color name="color_filter_personalized">#DD7420</color>
+    <color name="color_filter_disabled">#959CA3</color>
+
+    <color name="color_hold_background">#C24C52</color>
+
+
+    <!-- WatchList Fragment-->
+
+
+    <color name="color_lightgreen_background_watchlist">#CDF0E4</color>
+    <color name="color_darkgreen_text_watchlist">#004700</color>
+    <color name="color_lightred_background_watchlist">#FEDEDE</color>
+    <color name="color_darkred_text_watchlist">#3F0000</color>
+
+
+    <!-- SHARE HOLDER FRAGMENTS-->
+
+    <color name="color_share_holder_prometer">#3DBEBA</color>
+    <color name="color_share_holder_fii">#FF8852</color>
+    <color name="color_share_holder_dii">#6980FF</color>
+    <color name="color_share_holder_adr">#D8AE1D</color>
+    <color name="color_share_holder_public">#8357C3</color>
+
+    <color name="color_share_holder_default">#DDDDDD</color>
+
+
+</resources>

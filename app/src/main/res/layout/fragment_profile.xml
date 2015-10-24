@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bar3">
+
+    <RelativeLayout
+        android:id="@+id/layoutRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_bar3"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textViewEthinic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/listview_click"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Asian"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEthinic"
+            android:src="@mipmap/img_placeholder" />
+
+        <TextView
+            android:id="@+id/textViewLabelBDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewEthinic"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:drawableLeft="@mipmap/img_birthday"
+            android:drawablePadding="4dp"
+            android:text="@string/string_birthday"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewBDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEthinic"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/textViewLabelBDay"
+            android:gravity="right"
+            android:text="abc"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewWtLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewLabelBDay"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:drawableLeft="@mipmap/img_weight"
+            android:drawablePadding="4dp"
+            android:text="@string/weight"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewLabelBDay"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/textViewWtLabel"
+            android:text="47gm"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewHtLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewWtLabel"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:drawableLeft="@mipmap/img_height"
+            android:drawablePadding="4dp"
+            android:text="@string/height"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewWtLabel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/textViewWtLabel"
+            android:text="147 cm"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewVegLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewHtLabel"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:drawableLeft="@mipmap/img_vegiie"
+            android:drawablePadding="4dp"
+            android:text="@string/veg"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewVeg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewHtLabel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/textViewWtLabel"
+            android:text="Yes!"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewDrinksLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewVegLabel"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:drawableLeft="@mipmap/img_drinks"
+            android:drawablePadding="4dp"
+            android:text="@string/drinks"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewDrinks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewVegLabel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/textViewWtLabel"
+            android:text="No"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewLabelStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDrinksLabel"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/status_label"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewLabelStatus"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/drawable_text_area"
+            android:maxLength="300"
+            android:minLines="5"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/edit_text_status"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnFavourite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/filter_button_pressed"
+                    android:text="@string/favourite" />
+
+                <Button
+                    android:id="@+id/btnShare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/filter_button_pressed"
+                    android:text="@string/share" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/filter_button_pressed"
+                    android:text="@string/back" />
+
+                <Button
+                    android:id="@+id/btnSms"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/filter_button_pressed"
+                    android:text="@string/sms"
+
+                    android:textAllCaps="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

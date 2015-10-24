@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TipSatAndroidChallenge</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_fav">Favourite</string>
+    <string name="string_ethinic">Ethinicity:Asian</string>
+    <string name="error_nodata">No Data</string>
+    <string name="string_birthday">Birthday</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="veg">Is Veg?</string>
+    <string name="drinks">Drinks</string>
+    <string name="status_label">Status</string>
+    <string name="favourite">Favourite it!</string>
+    <string name="share">Share</string>
+    <string name="back">Back</string>
+    <string name="sms">Sms</string>
+    <string name="sort">Sort by</string>
+    <string name="reload">Reload</string>
+</resources>
